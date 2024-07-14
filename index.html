@@ -1,0 +1,22 @@
+<!-- index.html -->  
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Import The codee</title>  
+</head>  
+<body>  
+    <h1>Class Task</h1>  
+    <button id="myButton">Click me</button>  
+
+    <script type="module">  
+        import { displayMessage } from './app.js';  
+
+        document.getElementById('myButton').addEventListener('click', displayMessage);  
+    </script>  
+
+
+
+</body>  
+</html>
